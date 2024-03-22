@@ -6,6 +6,10 @@
   display: none;
 }
 
+.open {
+  display: none;
+}
+
 #menuImg {
   width: 20px;
   height: 17px;
@@ -793,6 +797,9 @@ textarea:hover {
     display: none;
   }
   #navigation {
+    display: initial;
+  }
+  .open {
     display: initial;
   }
   #aboutToFooter {
