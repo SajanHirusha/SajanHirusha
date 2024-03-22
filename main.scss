@@ -5,6 +5,10 @@
 #navigation {
   display: none;
 }
+.open{
+  display:none;
+}
+
 #menuImg{
   width:20px;
   height: 17px;
@@ -937,6 +941,9 @@ textarea {
   }
   #navigation {
     display: initial;
+  }
+  .open{
+    display:initial;
   }
   #aboutToFooter {
     background-color: #23262a;
