@@ -1039,15 +1039,21 @@ textarea {
 
 @media only screen and (max-width: 376px) {
   #head {
-    height: 60.1vh;
+    height: 76vh;
   }
   #headImage {
-    left: 37%;
-    top: 31.7%;
+    width: 220px;
+    height: 223px;
+    left: 47%;
+    top: 47%;
 
   }
   #socialMediaIcon {
-    top: 61%;
+    top: 76%;
+  }
+  #myIntro {
+    width: 50%;
+    top: 44%;
   }
   #aboutToFooter {
     #p2 {
