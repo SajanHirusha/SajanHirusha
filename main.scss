@@ -896,6 +896,7 @@ textarea {
 
 @media only screen and (max-width: 427px) {
   #head {
+    height: 54.1vh;
     p {
       font: 700 30px Serif;
       position: relative;
@@ -910,9 +911,7 @@ textarea {
       font-size: 30px;
     }
   }
-  #head {
-    height: 50.2vh;
-  }
+
   #headImage {
     width: 331px;
     height: 268px;
@@ -932,7 +931,7 @@ textarea {
 
   #socialMediaIcon {
     position: absolute;
-    top: 50.2%;
+    top: 54.1%;
   }
 
   .left {

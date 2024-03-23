@@ -756,6 +756,9 @@ textarea:hover {
   }
 }
 @media only screen and (max-width: 427px) {
+  #head {
+    height: 54.1vh;
+  }
   #head p {
     font: 700 30px Serif;
     position: relative;
@@ -766,9 +769,6 @@ textarea:hover {
   }
   #head .dynamic-txts li {
     font-size: 30px;
-  }
-  #head {
-    height: 50.2vh;
   }
   #headImage {
     width: 331px;
@@ -786,7 +786,7 @@ textarea:hover {
   }
   #socialMediaIcon {
     position: absolute;
-    top: 50.2%;
+    top: 54.1%;
   }
   .left {
     position: absolute;
