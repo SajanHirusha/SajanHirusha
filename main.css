@@ -627,23 +627,35 @@ textarea:hover {
     width: 210px;
     height: 130px;
   }
+  .otherInfo, .form {
+    margin: 10px;
+    width: 47% !important;
+  }
   #name, #pNumber {
-    width: 191px !important;
-    height: 50px;
+    width: 98% !important;
+  }
+  #number {
+    bottom: 20%;
+    left: 1%;
   }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 850px) {
+  #head {
+    height: 55.1vh;
+  }
   #head p {
     font: 700 40px Serif;
-    position: relative;
     top: 10%;
+  }
+  #head .dynamic-txts {
+    top: 23.3%;
   }
   #head .dynamic-txts li {
     font-size: 40px;
   }
   #socialMediaIcon {
     position: absolute;
-    top: 94%;
+    top: 55.1%;
   }
   #nav {
     height: 80px;
@@ -667,11 +679,11 @@ textarea:hover {
     width: 600px;
     height: 430px;
     left: 34%;
-    top: 24.1%;
+    top: 21%;
   }
   #myIntro {
     position: absolute;
-    top: 55%;
+    top: 38%;
     left: 40px;
     width: 40%;
   }
@@ -752,11 +764,6 @@ textarea:hover {
   .ui {
     padding: 10px 10px !important;
   }
-  #number {
-    position: relative;
-    bottom: 20%;
-    left: 1%;
-  }
 }
 @media only screen and (max-width: 551px) {
   #head p {
@@ -765,23 +772,23 @@ textarea:hover {
     top: 8%;
   }
   #head .dynamic-txts {
-    top: 30%;
+    top: 20%;
   }
   #head .dynamic-txts li {
     font-size: 30px;
   }
   #head {
-    height: 83vh;
+    height: 55.1vh;
   }
   #headImage {
     width: 331px;
     height: 268px;
     left: 37%;
-    top: 43%;
+    top: 34%;
   }
   #myIntro {
     width: 50%;
-    top: 49%;
+    top: 34%;
   }
   #myIntro p {
     font: 500 14.2px Serif;
@@ -789,7 +796,7 @@ textarea:hover {
   }
   #socialMediaIcon {
     position: absolute;
-    top: 83.2%;
+    top: 55.1%;
   }
   .left {
     position: absolute;
@@ -864,7 +871,7 @@ textarea:hover {
     font-size: 7px;
     margin: 8px;
   }
-  #name, #pNumber {
+  .otherInfo, .form {
     width: 98% !important;
   }
   #toUp {
@@ -873,6 +880,16 @@ textarea:hover {
   }
 }
 @media only screen and (max-width: 376px) {
+  #head {
+    height: 60.1vh;
+  }
+  #headImage {
+    left: 37%;
+    top: 31.7%;
+  }
+  #socialMediaIcon {
+    top: 61%;
+  }
   #aboutToFooter #p2 {
     width: 310px !important;
   }
