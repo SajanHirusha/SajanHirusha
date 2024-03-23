@@ -904,7 +904,7 @@ textarea:hover {
     margin: 5.2px;
   }
 }
-@media only screen and (max-width: 322px) {
+@media only screen and (max-width: 370px) {
   .left {
     top: 10%;
     right: 13%;
