@@ -669,14 +669,14 @@ textarea {
 
 @media only screen and (max-width: 1024px) {
   #head {
+    height: 84.4vh;
     p {
-      position: relative;
-      top: 4%;
+      top: 11% ;
     }
   }
   #socialMediaIcon {
     position: absolute;
-    top: 94%;
+    top: 80%;
   }
   .left {
     img {
@@ -698,6 +698,7 @@ textarea {
 
   }
   #headImage {
+    top: 30%;
     width: 670px;
     height: 490px;
     right: -4%;
@@ -705,7 +706,7 @@ textarea {
   }
   #myIntro {
     position: absolute;
-    top: 55%;
+    top: 52.3%;
     left: 40px;
     width: 40%;
 
@@ -896,7 +897,6 @@ textarea {
 
 @media only screen and (max-width: 427px) {
   #head {
-    height: 54.1vh;
     p {
       font: 700 30px Serif;
       position: relative;
@@ -904,24 +904,26 @@ textarea {
     }
 
     .dynamic-txts {
-      top: 17%;
+      top: 30%;
     }
 
     .dynamic-txts li {
       font-size: 30px;
     }
   }
-
+  #head {
+    height: 83vh;
+  }
   #headImage {
     width: 331px;
     height: 268px;
     left: 37%;
-    top: 28.7%;
+    top: 43%;
 
   }
   #myIntro {
     width: 50%;
-    top: 30%;
+    top: 49%;
 
     p {
       font: 500 14.2px Serif;
@@ -931,7 +933,7 @@ textarea {
 
   #socialMediaIcon {
     position: absolute;
-    top: 54.1%;
+    top: 83.2%;
   }
 
   .left {
