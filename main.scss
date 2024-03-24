@@ -666,30 +666,7 @@ textarea {
     }
   }
 }
-@media only screen and (min-width: 1024px) {
-  #head {
-    height: 38vh;
 
-    p {
-      top: 11%;
-    }
-  }
-  .dynamic-txts {
-    top: 17% !important;
-  }
-  #socialMediaIcon {
-
-    top: 38%;
-  }
-  #headImage {
-    top: 11%;
-    left:47%;
-
-  }
-  #myIntro {
-    top: 24.2%;
-  }
-  }
 @media only screen and (max-width: 1024px) {
   #head {
     height: 84.4vh;
