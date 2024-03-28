@@ -17,6 +17,8 @@
 </head>
 
 <body>
+
+<!--NAVBAR OPEN-->
 <nav id="nav">
     <div class="left">
         <img src="sajan.jpg" alt="sajanPhoto">
@@ -44,61 +46,70 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contacts</a></li>
     </div>
-    <span class="open"style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="menuImg" src="menu .png"> </span>
-
+    <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="menuImg" src="menu .png"> </span>
 
 </nav>
+<!--NAVBAR CLOSE-->
+
+<!--HEAD OPEN-->
 <div id="head">
-    <p>Hi, I’m <span>Sajan Hirusha</span></p>
+    <div id="headImage">
+    </div>
+    <div id="myIntro1">
+        <p>Hi, I’m <span>Sajan Hirusha</span></p>
 
-    <ul class="dynamic-txts">
-        <li><span>a Professional Coder.</span></li>
-        <li><span>a Developer.</span></li>
-        <li><span>a Freelancer.</span></li>
-        <li><span>a Undergraduate.</span></li>
-    </ul>
+        <ul class="dynamic-txts">
+            <li><span>a Professional Coder.</span></li>
+            <li><span>a Developer.</span></li>
+            <li><span>a Freelancer.</span></li>
+            <li><span>a Undergraduate.</span></li>
+        </ul>
+    </div>
 
-</div>
+    <div id="myIntro2">
+        <p>Hello, I am Sajan Hirusha from Sri Lanka. I am a professional Web designer and developer with 2 years of
+            experience. My main target is to provide a good service to my buyers. Please message me with your
+            requests.</p>
+    </div>
 
-<div id="headImage">
-</div>
-<div id="myIntro">
-    <p>Hello, I am Sajan Hirusha from Sri Lanka. I am a professional Web designer and developer with 2 years of
-        experience. My main target is to provide a good service to my buyers. Please message me with your requests.</p>
-</div>
-<div id="socialMediaIcon">
-    <p>Find with me</p>
-    <button class="ui circular facebook icon button" fdprocessedid="og5kd">
-        <i class="facebook icon"></i>
-    </button>
-    <button class="ui circular twitter icon button" fdprocessedid="gdz7y">
-        <i class="twitter icon"></i>
-    </button>
-    <button class="ui circular linkedin icon button" fdprocessedid="fyoz1y">
-        <i class="linkedin icon"></i>
-    </button>
-    <button class="ui circular google plus icon button" fdprocessedid="2edh7m">
-        <i class="google plus icon"></i>
-    </button>
-    <a href="#head">
-        <button id="toUp">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
-                 viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                      d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-            </svg>
+    <div id="socialMediaIcon">
+        <p>Find with me</p>
+        <button class="ui circular facebook icon button" fdprocessedid="og5kd">
+            <i class="facebook icon"></i>
         </button>
-    </a>
-</div>
-<div id="aboutToFooter">
-    <div id="about">
+        <button class="ui circular twitter icon button" fdprocessedid="gdz7y">
+            <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button" fdprocessedid="fyoz1y">
+            <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button" fdprocessedid="2edh7m">
+            <i class="google plus icon"></i>
+        </button>
+        <a href="#head">
+            <button id="toUp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-arrow-up"
+                     viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+                </svg>
+            </button>
+        </a>
+    </div>
 
-        <div class="row">
-            <div class="inner1 col-lg-5 col-md-4 col-sm-4 col-12">
+</div>
+
+<!--HEAD CLOSE-->
+
+
+<!--ABOUT SECTION START-->
+    <div id="about">
+            <div class="inner1 ">
                 <img id="aboutImage" src="sajanAbout.jpg" alt="">
 
             </div>
-            <div class="inner2 col-lg-7 col-md-8 col-sm-8 col-12">
+            <div class="inner2 ">
                 <p class="para">VISIT MY PORTFOLIO & HIRE ME</p>
                 <h1 class="head">About Me</h1>
                 <div id="p2">
@@ -113,10 +124,14 @@
                 </a>
 
             </div>
-        </div>
     </div>
 
-</div>
+
+<!--ABOUT SECTION CLOSE-->
+
+
+<!--SKILLS SECTION OPEN-->
+
 <div id="skills">
     <hr>
     <p class="para">VISIT MY SKILL & HIRE ME</p>
@@ -125,40 +140,40 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="html-css-js.png" alt="">
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="tailwindCsss.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="angular.png" alt="">
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="react.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="node.png" alt="">
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="mongoDB.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="java.png" alt="">
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="mySql.png" alt="">
                     </div>
                 </div>
@@ -177,6 +192,9 @@
     </div>
 </div>
 
+<!--SKILLS SECTION CLOSE-->
+
+<!--EDUCATION SECTION START-->
 <div id="education">
     <hr>
     <p class="para">EDUCATION</p>
@@ -215,6 +233,10 @@
     </div>
 </div>
 
+<!--EDUCATION SECTION CLOSE-->
+
+
+<!--PROJECT SECTION START-->
 <div id="projects">
     <hr>
     <p class="para">VISIT MY PROJECTS</p>
@@ -223,32 +245,32 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <a href="https://sajanhirusha.github.io/SLTraveler/" target="_blank"><img src="Web.png"
                                                                                                   alt="Web Development"></a>
                         <p class="project">Web Development Project</p>
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="" alt="">
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row classRow">
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="" alt="">
                     </div>
-                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="skillsImage col-lg-3 col-md-6 col-sm-6 col-6">
                         <img src="" alt="">
                     </div>
                 </div>
@@ -266,12 +288,16 @@
         </button>
     </div>
 </div>
+
+<!--PROJECT SECTION CLOSE-->
+
+<!--CONTACT SECTION START-->
 <div id="contact">
     <hr>
     <p class="para">CONTACT</p>
     <h1 class="head">Contact Me</h1>
     <div class="row rowContact">
-        <div class="otherInfo col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="otherInfo col-lg-4 col-md-11 col-sm-11 col-11">
             <h1 id="myName">I’m <span> Sajan Hirusha</span></h1>
             <p class="text">Phone : 0702789166
                 <a href="tel:+94702789166">
@@ -307,7 +333,7 @@
             </button>
         </div>
 
-        <div class="form col-lg-7 col-md-6 col-sm-6 col-12">
+        <div class="form col-lg-7 col-md-11 col-sm-11 col-11">
             <form action="">
                 <label for="name">YOUR NAME</label><br>
                 <input type="text" name="name" id="name">
@@ -325,6 +351,11 @@
         </div>
     </div>
 </div>
+
+<!--CONTACT SECTION END-->
+
+
+<!--FOOTER SECTION START-->
 <div id="footer">
     <div id="footerSection1">
         <button class="ui circular facebook icon button" fdprocessedid="og5kd">
@@ -355,6 +386,10 @@
         <p>&copy; Sajan Hirusha</p>
     </div>
 </div>
+
+<!--FOOTER SECTION CLOSE-->
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
