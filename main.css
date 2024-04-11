@@ -1001,7 +1001,7 @@ textarea:hover {
     height: 380px !important;
   }
   .inner2 {
-    height: 600px !important;
+    height: 460px !important;
     padding: 30px !important;
   }
   .inner2 #p2 {
@@ -1025,6 +1025,9 @@ textarea:hover {
   }
 }
 @media only screen and (max-width: 357px) {
+  #about .inner2 {
+    height: 700px !important;
+  }
   #about .inner2 a button {
     margin-top: 37px !important;
   }
