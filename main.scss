@@ -1345,7 +1345,7 @@ textarea {
   }
 
   .inner2 {
-    height: 460px !important;
+    height: 480px !important;
     padding: 30px !important;
     
     #p2 {
@@ -1379,7 +1379,7 @@ textarea {
 @media only screen and (max-width: 357px) {
   #about {
     .inner2 {
-      height: 700px !important;
+      height: 505px !important;
      a{
       button{
         margin-top: 37px !important;
@@ -1387,7 +1387,11 @@ textarea {
      }
     }
   }
-
+#head{
+  #socialMediaIcon {
+    top: 70% !important;
+  }
+}
 }
 
 @media only screen and (max-width: 331px) {
