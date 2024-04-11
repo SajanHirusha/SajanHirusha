@@ -306,7 +306,8 @@
   top: 20px;
 }
 
-#skills, #projects {
+#skills,
+#projects {
   text-align: center;
   background-color: #23262a;
   padding-bottom: 100px;
@@ -347,7 +348,8 @@ hr {
 #education {
   background-color: #23262a;
 }
-#education .para, #education .head {
+#education .para,
+#education .head {
   text-align: center;
 }
 #education .educationRow {
@@ -379,18 +381,22 @@ hr {
   letter-spacing: 1.2px;
 }
 
-#OL, #AL {
+#OL,
+#AL {
   padding-left: 10%;
 }
-#OL h1, #AL h1 {
+#OL h1,
+#AL h1 {
   text-decoration: underline #D2042D;
   text-underline-offset: 4px;
   font-size: 21px;
 }
-#OL h1:hover, #AL h1:hover {
+#OL h1:hover,
+#AL h1:hover {
   text-decoration: underline yellow;
 }
-#OL ul li, #AL ul li {
+#OL ul li,
+#AL ul li {
   font-size: 17px !important;
 }
 
@@ -407,7 +413,8 @@ hr {
   margin-top: 40px;
 }
 
-.otherInfo, .form {
+.otherInfo,
+.form {
   background-color: #1b1e21;
   margin: 10px;
   border-radius: 10px;
@@ -444,7 +451,8 @@ textarea:hover {
   letter-spacing: 2px;
   padding-top: 30px;
 }
-.form #name, .form #pNumber {
+.form #name,
+.form #pNumber {
   width: 280px;
   height: 50px;
 }
@@ -578,7 +586,8 @@ textarea:hover {
 }
 
 @media only screen and (max-width: 1330px) {
-  #name, #pNumber {
+  #name,
+  #pNumber {
     width: 98% !important;
   }
   #number {
@@ -659,7 +668,7 @@ textarea:hover {
     padding: 21px 30px;
   }
   #about .inner1 {
-    height: 460px;
+    height: 430px;
     padding-right: 7px;
   }
   #about .inner1 #aboutImage {
@@ -668,8 +677,12 @@ textarea:hover {
     margin-top: 34%;
   }
   #about .inner2 {
-    padding: 52px 30px;
-    height: 460px;
+    padding: 37px 30px;
+    height: 430px;
+  }
+  #about .inner2 button {
+    padding: 10px 10px !important;
+    margin-top: 30px !important;
   }
   .head {
     font-size: 40px !important;
@@ -715,13 +728,15 @@ textarea:hover {
   #about {
     height: 80%;
   }
+  #about .inner1 {
+    height: 448px;
+  }
   #about .inner1 #aboutImage {
     height: 280px;
     margin-top: 52% !important;
   }
-  .inner2 button {
-    padding: 10px 10px !important;
-    margin-top: 25px !important;
+  #about .inner2 {
+    height: 448px;
   }
   .head {
     font-size: 37px !important;
@@ -818,6 +833,11 @@ textarea:hover {
     margin: 13px;
   }
 }
+@media only screen and (max-width: 480px) {
+  #about .inner2 {
+    height: 480px;
+  }
+}
 @media only screen and (max-width: 461px) {
   #head #myIntro1 p {
     font-size: 28px;
@@ -854,7 +874,6 @@ textarea:hover {
   }
   #about .inner2 {
     margin-bottom: 7px !important;
-    height: 520px;
   }
   .head {
     font-size: 31px !important;
@@ -877,10 +896,12 @@ textarea:hover {
     font-size: 12px !important;
     letter-spacing: 1px;
   }
-  #OL h1, #AL h1 {
+  #OL h1,
+  #AL h1 {
     font-size: 19px;
   }
-  #OL ul li, #AL ul li {
+  #OL ul li,
+  #AL ul li {
     font-size: 13px !important;
     letter-spacing: 1.1px;
   }
@@ -934,6 +955,11 @@ textarea:hover {
     grid-column: 1/4;
   }
 }
+@media only screen and (max-width: 412px) {
+  #about .inner2 {
+    height: 520px;
+  }
+}
 @media only screen and (max-width: 380px) {
   #head {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("headBackground.jpg");
@@ -975,7 +1001,7 @@ textarea:hover {
     height: 380px !important;
   }
   .inner2 {
-    height: 440px !important;
+    height: 460px !important;
     padding: 30px !important;
   }
   .inner2 #p2 {
@@ -996,6 +1022,14 @@ textarea:hover {
   }
   #myName {
     font-size: 28px;
+  }
+}
+@media only screen and (max-width: 357px) {
+  #about .inner2 {
+    height: 500px !important;
+  }
+  #about .inner2 a button {
+    margin-top: 40px !important;
   }
 }
 @media only screen and (max-width: 331px) {
