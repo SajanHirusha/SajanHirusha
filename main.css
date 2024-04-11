@@ -1029,7 +1029,7 @@ textarea:hover {
     height: 500px !important;
   }
   #about .inner2 a button {
-    margin-top: 40px !important;
+    margin-top: 37px !important;
   }
 }
 @media only screen and (max-width: 331px) {
@@ -1064,6 +1064,9 @@ textarea:hover {
     width: 73%;
     height: 250px;
     margin-left: 11.8%;
+  }
+  #about .inner2 {
+    height: 520px !important;
   }
   .skillsImage {
     height: 140px;
